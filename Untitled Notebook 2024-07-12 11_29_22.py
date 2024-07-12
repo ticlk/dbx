@@ -7,9 +7,7 @@
 # MAGIC %sql
 # MAGIC insert into table0712(id, fname) values(1,'test')
 
-# MAGIC %sql
-# MAGIC insert into table0712(id, fname) values(2,'test 2')
+# COMMAND ----------
 
 # MAGIC %sql
-# MAGIC update table0712 set fname = 'update 2' where id =2
-
+# MAGIC insert into table0712(id, fname) values(7,'test 07')
