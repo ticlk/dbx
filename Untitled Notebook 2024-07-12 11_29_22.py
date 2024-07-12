@@ -20,4 +20,4 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC update table0712 set fname = 'update 5' where id = 5
+# MAGIC update table0712 set fname = 'update 6' where id = 6
