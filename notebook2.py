@@ -6,3 +6,5 @@
 
 # MAGIC %sql
 # MAGIC insert into table0212(id) values(1)
+
+# MAGIC insert into table0212(id) values(4)
