@@ -10,7 +10,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC insert into table0712(id, fname) values(9,'test 09')
+# MAGIC insert into table0712(id, fname) values(10,'test 10')
 
 # COMMAND ----------
 
