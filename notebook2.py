@@ -14,3 +14,6 @@
 
 # MAGIC insert into table0212(id) values(100)
 # MAGIC insert into table0212(id) values(101)
+
+# MAGIC insert into table0212(id) values(50)
+# MAGIC insert into table0212(id) values(59)
