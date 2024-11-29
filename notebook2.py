@@ -11,9 +11,15 @@
 # MAGIC insert into table0212(id) values(30)
 # MAGIC insert into table0212(id) values(6)
 # MAGIC insert into table0212(id) values(30)
-
+# MAGIC
 # MAGIC insert into table0212(id) values(100)
 # MAGIC insert into table0212(id) values(101)
-
+# MAGIC <<<<<<< Updated upstream
+# MAGIC
 # MAGIC insert into table0212(id) values(50)
 # MAGIC insert into table0212(id) values(59)
+# MAGIC
+# MAGIC
+# MAGIC insert into table0212(id) values(199)
+# MAGIC insert into table0212(id) values(200)
+# MAGIC
