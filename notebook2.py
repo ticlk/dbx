@@ -9,3 +9,5 @@
 # MAGIC
 # MAGIC insert into table0212(id) values(6)
 # MAGIC insert into table0212(id) values(30)
+# MAGIC insert into table0212(id) values(6)
+# MAGIC insert into table0212(id) values(30)
