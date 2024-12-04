@@ -23,3 +23,10 @@
 # MAGIC insert into table0212(id) values(199)
 # MAGIC insert into table0212(id) values(200)
 # MAGIC
+# MAGIC insert into table0212(id) values(135)
+# MAGIC insert into table0212(id) values(200)
+# MAGIC
+
+# COMMAND ----------
+
+
