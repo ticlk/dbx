@@ -131,4 +131,4 @@ print(password)
 # COMMAND ----------
 
 # MAGIC %sh 
-# MAGIC nc -vz adb-3885924896301357.1.databricks.azure.cn 443
+# MAGIC nc -vz adb-3885924896301357.1.databricks.azure.cn 3306
