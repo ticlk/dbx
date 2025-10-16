@@ -59,10 +59,6 @@ display(dbutils.fs.ls(mount_point))
 
 # COMMAND ----------
 
-dbutils.fs.mounts()
-
-# COMMAND ----------
-
 df = spark.read.format("pdf") \
 .option("imageType", "BINARY") \
 .option("resolution", "200") \
