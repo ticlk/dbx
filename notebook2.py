@@ -1,18 +1,4 @@
 # Databricks notebook source
-configs = {"fs.azure.account.auth.type": "OAuth",
-          "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
-          "fs.azure.account.oauth2.client.id": "08715978-21cf-4596-b843-302dee41e8fd",
-          "fs.azure.account.oauth2.client.secret": "_~4UWpojLW9~J_v7WU3v-.g-TmcOYs677O",
-          "fs.azure.account.oauth2.client.endpoint": "https://login.chinacloudapi.cn/b388b808-0ec9-4a09-a414-a7cbbd8b7e9b/oauth2/token"}
-
-# Optionally, you can add <directory-name> to the source URI of your mount point.
-dbutils.fs.mount(
-  source = "abfss://adftest@storage0331.dfs.core.chinacloudapi.cn/test02/",
-  mount_point = "/mnt/mount01",
-  extra_configs = configs)
-
-# COMMAND ----------
-
 spark.conf.set("fs.azure.account.auth.type.storage0331.dfs.core.chinacloudapi.cn", "SAS")
 spark.conf.set("fs.azure.sas.token.provider.type.storage0331.dfs.core.chinacloudapi.cn", "org.apache.hadoop.fs.azurebfs.sas.FixedSASTokenProvider")
 spark.conf.set("fs.azure.sas.fixed.token.storage0331.dfs.core.chinacloudapi.cn", "st=2025-05-28T02%3A54%3A38Z&se=2025-05-28T03%3A54%3A38Z&sp=rl&sv=2025-05-05&sr=d&sdd=1&sig=1Pva5rCodrSRF%2BznXRZRryblLlxygOTDG27S0wLq4BA%3D")
